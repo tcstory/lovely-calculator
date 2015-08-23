@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, ,maximum-scale=1, user-scalable=no"/>
+    <title>动感计算器</title>
+    <link rel="stylesheet" href="css/calculator2.css"/>
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <div id="calculator">
+        <div id="header">计算器</div>
+        <div id="screen">123+6</div>
+        <div id="btn-wrapper">
+            <div class="row">
+                <div class="btn number" data-val="7">7</div>
+                <div class="btn number" data-val="8">8</div>
+                <div class="btn number" data-val="9">9</div>
+                <div class="btn op" data-val="+">+</div>
+            </div>
+            <div class="row">
+                <div class="btn number" data-val="4">4</div>
+                <div class="btn number" data-val="5">5</div>
+                <div class="btn number" data-val="6">6</div>
+                <div class="btn op" data-val="-">-</div>
+            </div>
+            <div class="row">
+                <div class="btn number" data-val="3">3</div>
+                <div class="btn number" data-val="2">2</div>
+                <div class="btn number" data-val="1">1</div>
+                <div class="btn op" data-val="*">*</div>
+            </div>
+            <div class="row">
+                <div class="btn number" data-val="0">0</div>
+                <div class="btn op" data-val=".">.</div>
+                <div class="btn op equals" data-val="=">=</div>
+                <div class="btn op" data-val="/">/</div>
+            </div>
+            <div class="row">
+                <div class="btn clear" data-val="clear">清除</div>
+            </div>
+        </div>
+        <div id="about">
+            <p>甜脆牌计算器</p>
+            <p><img src="assets/image/Firefox.png" alt="" id="logo"/></p>
+        </div>
+    </div>
+    <script src="js/calculator2.js"></script>
+</body>
+</html>
